@@ -65,7 +65,7 @@ public class DriverClass {
         /*
         Display the shapes
          */
-
+        System.out.println("Hi, We are sorted based on our areas!");
         for(int i=0;i<len;i++){
             s.get(i).displayShape();
         }
