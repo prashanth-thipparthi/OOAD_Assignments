@@ -3,5 +3,9 @@
 Solution:
 
 1.In the design there is a Base Class called "Shape", from which all the Classes of different Shapes gets derived.
-2.Each Shape Class has it's boundary paremaeters and it's area.
-3.Sorting is done based on the area of the shapes.
+2.Base class "Shape" is a abstract class with protected variables "shapeName","Area" and abstract methods, "displayShape()", "setArea()", "getArea()".
+3.Derived Shape Classes have their boundary parameters and implements methods inherited from Base class "Shape".
+4.In the Driver Class, we have created a ArrayList of Shapes and assigned all the Shape objects to it.
+5.Area of each shape is calculated based on its boundary parameters. 
+6.Sorting is done based on the area of the shapes.
+7."displayShape()" is called on the ArrayList of Objects.
